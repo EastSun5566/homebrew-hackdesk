@@ -1,6 +1,6 @@
 # Homebrew HackDesk
 
-> Homebrew tap for [HackDesk](https://hackdesk.eastsun.me/) - A hackable HackMD desktop application.
+> Homebrew tap for [HackDesk](https://github.com/EastSun5566/hackdesk) - A hackable HackMD desktop application.
 
 ## Installation
 
