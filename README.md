@@ -5,19 +5,19 @@
 ## Installation
 
 ```sh
-# Tap this repository
+# Tap this repo
 brew tap eastsun5566/hackdesk
 
-# Install HackDesk (use --no-quarantine for unsigned apps)
+# Install app (use `--no-quarantine` for unsigned apps)
 brew install --cask hackdesk --no-quarantine
 ```
 
 ## Uninstallation
 
 ```sh
-# Uninstall HackDesk
+# Uninstall app
 brew uninstall --cask hackdesk
 
-# Untap this repository (optional)
+# Untap this repo (optional)
 brew untap eastsun5566/hackdesk
 ```
