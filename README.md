@@ -12,7 +12,8 @@ brew tap eastsun5566/hackdesk
 brew install --cask hackdesk
 ```
 
-> Note: Homebrew no longer supports `--no-quarantine`. HackDesk is currently unsigned, so macOS may block the first launch. If that happens, open the app once from Finder with **Right-click → Open**, or allow it in **System Settings → Privacy & Security**. If you trust the app and prefer the terminal, you can run `xattr -dr com.apple.quarantine /Applications/HackDesk.app`.
+> [!NOTE]
+> Homebrew no longer supports `--no-quarantine`. HackDesk is currently unsigned, so macOS may block the first launch. If that happens, open the app once from Finder with **Right-click → Open**, or allow it in **System Settings → Privacy & Security**. If you trust the app and prefer the terminal, you can run `xattr -dr com.apple.quarantine /Applications/HackDesk.app`.
 
 ## Uninstallation
 
