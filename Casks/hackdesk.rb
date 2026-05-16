@@ -1,11 +1,11 @@
 cask "hackdesk" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.0.7"
-  sha256 arm:   "c44c4d534e9d04c92ed8127a64cfd97dd07ce0d46746ca4c5454d3a0af68c15e",
-         intel: "35bbc531d0fb25f2e9832dac586ae488f0bcb398a91716a8e3f1f8022fabca6c"
+  version "0.1.0"
+  sha256 arm:   "c4c16cb805ab33040753d062ff7150b4bf3267ce069afa00b8afb71dfe9122fe",
+    intel: "797b4ac106b525c0a7d1971a71b4a93a6c1334c8af0053e7e24543ea27076007"
 
-  url "https://github.com/EastSun5566/hackdesk/releases/download/hackdesk-v#{version}/HackDesk_#{version}_#{arch}.dmg",
+  url "https://github.com/EastSun5566/hackdesk/releases/download/v#{version}/HackDesk_#{version}_#{arch}.dmg",
       verified: "github.com/EastSun5566/hackdesk/"
   name "HackDesk"
   desc "Hackable HackMD desktop application"
