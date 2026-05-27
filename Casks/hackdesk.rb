@@ -1,9 +1,9 @@
 cask "hackdesk" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "c4c16cb805ab33040753d062ff7150b4bf3267ce069afa00b8afb71dfe9122fe",
-    intel: "797b4ac106b525c0a7d1971a71b4a93a6c1334c8af0053e7e24543ea27076007"
+  version "0.1.5"
+  sha256 arm:   "95785317c2dc9b6c101ffc742d0c81858001742948a0520ec713e4a3eba79d5a",
+    intel: "028cc359e43fa79f86c06cd1e90401fd857f7d6d5e8fa1cad9289ec7528247ff"
 
   url "https://github.com/EastSun5566/hackdesk/releases/download/v#{version}/HackDesk_#{version}_#{arch}.dmg",
       verified: "github.com/EastSun5566/hackdesk/"
